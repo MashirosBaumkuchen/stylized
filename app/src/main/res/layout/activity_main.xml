@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/origin"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/origin"
+        android:layout_marginTop="16dp"
+        android:onClick="go"
+        android:text="go" />
+
+
+</RelativeLayout>
